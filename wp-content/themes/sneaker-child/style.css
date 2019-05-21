@@ -1,0 +1,41 @@
+/*
+Theme Name: Sneaker Child
+Theme URI: http://demo.roadthemes.com/sneaker/
+Template: sneaker
+Author: Plaza-Themes
+Author URI: http://plazathemes.com/
+Description: Sneaker is a new WordPress theme for Online Shopping. With this theme, we have presets and different layouts. With drag and drop home page layout manager, we can build many variations of home page layout. We also have ajax cart, wishlist, compare, zoom and fancybox to bring into a modern look of website. Some of amazing features like Revolution Slider, Mega Menu, Visual Composer, Product Tabs &amp; Carousel, Contact Form with Google map will makes your website more attractive.
+Tags: one-column,two-columns,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,editor-style,featured-images,flexible-header,post-formats,sticky-post,threaded-comments
+Version: 1.0.1557557101
+Updated: 2019-05-11 06:45:01
+
+*/
+
+
+ul.product-cats li {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 4.236em;
+    text-align: center;
+    position: relative;
+}
+ul.product-cats li img {
+    margin: 0 auto; 
+}
+ 
+@media screen and (min-width:768px) {
+ 
+    ul.product-cats {
+        margin-left: 0;
+        clear: both;
+    }
+    ul.product-cats li {
+        width: 29.4117647059%;
+        float: left;
+        margin-right: 5.8823529412%;
+    }
+    ul.product-cats li:nth-of-type(3) {
+        margin-right: 0;
+    }
+     
+}
